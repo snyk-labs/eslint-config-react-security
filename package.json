@@ -1,0 +1,34 @@
+{
+  "name": "eslint-config-react-security",
+  "version": "0.1.0",
+  "description": "ESLint configuration package for React developers who want to avoid security mistakes.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snyk-labs/eslint-config-react-security.git"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "bugs": {
+    "url": "https://github.com/snyk-labs/eslint-config-react-security/issues"
+  },
+  "homepage": "https://github.com/snyk-labs/eslint-config-react-security#readme",
+  "peerDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-plugin-no-unsanitized": "^3.1.2",
+    "eslint-plugin-react": "^7.20.0"
+  },
+  "engines": {
+    "node": "^10.12.0 || >=12.0.0"
+  },
+  "author": "Ron Perris <ron@perr.is>"
+}
